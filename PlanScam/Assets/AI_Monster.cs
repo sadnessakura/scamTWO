@@ -7,7 +7,7 @@ public class AI_Monster : MonoBehaviour
 {
     private NavMeshAgent AI_Agent;
     private GameObject Player;
-    public GameObject Panel_GaveOver;
+    //public GameObject Panel_GaveOver;
 
     public Transform[] WayPoints;
     public int Current_Patch;
@@ -50,8 +50,8 @@ public class AI_Monster : MonoBehaviour
         float Dist_Player = Vector3.Distance(Player.transform.position, gameObject.transform.position);
         if (Dist_Player < 2)
         {
-            Player.SetActive(false);
-            Panel_GaveOver.SetActive(true);
+            //Player.SetActive(false);
+            //Panel_GaveOver.SetActive(true);
         }
     }
 }

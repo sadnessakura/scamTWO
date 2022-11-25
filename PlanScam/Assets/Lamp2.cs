@@ -16,7 +16,7 @@ public class Lamp2 : MonoBehaviour
 
     void Update()
     {
-        Number = Random.Range(0, 30);
+        Number = Random.Range(0, 120); //30
         if (Number < Num)
         {
             Lamp.intensity = 0;
