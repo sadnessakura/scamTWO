@@ -156,3 +156,6 @@ _ReSharper*/
 
 #Subversion files
 .svn 
+
+git rm --cached sharedassets0.assets.resS
+git commit --amend -C HEAD
